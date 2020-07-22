@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: antiquewhite;
+    font-family: 'Playfair Display', serif;
+    background-color: #252525;
+    font-size: 62.5%;
+}
+
+body{
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+
+header {
+    text-align: center;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+}
+
+h1{
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 60vh;
+    align-items: center;
+    border-radius: 2rem;
+    padding: 2rem 0;
+}
+
+@media (min-width: 768px){
+    main{
+        flex-direction: row;
+    }
+}
+
+section{
+    margin: 0 2rem;
+    background-color: #a09f9f;
+    border-radius: 1rem;
+}
+
+section img{
+    max-width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin-top: 2rem;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.info img{
+    max-width: 100%;
+}
+
+.info h4{
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.info p {
+    padding: 1rem;
+}
+
+@media (min-width: 768px){
+    .info{
+        width: 250px;
+        height: auto;
+        margin: 0;
+        padding: 1rem;
+    }
+    .info img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.button{
+    padding: 1rem;
+    background-color: #ffe571;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
